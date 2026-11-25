@@ -23,7 +23,7 @@
         <span>{{ recipe.difficulty }}</span>
       </p>
 
-      <!-- Jauge de faim SVG (Semaine 3) -->
+      <!-- Jauge de faim SVG -->
       <div class="hunger-wrapper">
         <HungerBar
           :points="recipe.hungerPoints || 5"
@@ -33,7 +33,7 @@
         />
       </div>
 
-      <!-- Action avec flèche animée (Semaine 2) -->
+      <!-- Action avec flèche animée -->
       <div class="card-action">
         <span class="action-text">Voir la recette</span>
         <span class="action-arrow" aria-hidden="true">→</span>
